@@ -19,8 +19,5 @@ with JSF2 and CDI.
 			-DarchetypeGroupId=eu.lestard
 			-DarchetypeArtifactId=jsf-cdi-archetype
 			-DarchetypeVersion=0.0.1
-			-DgroupId=my.group
-			-DartifactId=my.artifact'
-			
-Maven will ask you some questions about your project and then you are ready.
-
+			-DgroupId=your.group.id
+			-DartifactId=your.artifact.id
