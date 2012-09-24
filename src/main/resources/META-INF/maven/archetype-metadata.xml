@@ -1,0 +1,36 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+  name="jsf-cdi">
+  
+  <fileSets>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/main/webapp</directory>
+  		<includes>
+  			<include>**/index.xhtml</include>
+  			<include>src/main/webapp/WEB-INF/beans.xml</include>
+  			<include>src/main/webapp/WEB-INF/web.xml</include>
+  			<include>src/main/webapp/WEB-INF/faces-config.xml</include>
+  		</includes>
+  	</fileSet>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/main/webapp/WEB-INF</directory>
+  		<includes>
+  			<include>**/*.xml</include>
+  		</includes>
+  	</fileSet>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/main/java</directory>
+  	</fileSet>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/main/resources</directory>
+  	</fileSet>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/test/java</directory>
+  	</fileSet>
+  	<fileSet filtered="true" encoding="UTF-8">
+  		<directory>src/test/resources</directory>
+  	</fileSet>
+  </fileSets>
+  
+ 
+</archetype-descriptor>
