@@ -29,4 +29,4 @@ with JSF2 and CDI. The tomcat 7 plugin is also available.
 	1. Switch in the generated project directory
 	2. build the application with `mvn install`
 	3. start the tomcat server with `mvn tomcat7:run`
-	4. The url is `http:\\localhost:8080\your.artifact.id
+	4. The url is `http:\\localhost:8080\your.artifact.id`
